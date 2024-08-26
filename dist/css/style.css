@@ -38,13 +38,17 @@ h1 {
   background: transparent;
 }
 
-.navbar-logo > a {
+.navbar img {
+  width: 5%;
+}
+
+/* .navbar-logo > a {
   letter-spacing: 5px;
   text-decoration: none;
   color: var(--whiteColor);
   margin-left: 20px;
   font-size: 30px;
-}
+} */
 
 .navbar-menu {
   width: 400px;
@@ -398,6 +402,7 @@ header {
   width: 100%;
   text-align: center;
   padding: 5rem 1rem;
+  /* background-image: url("/assets/image/bluebg.jpg"); */
   background-color: var(--primaryColor);
   color: var(--whiteColor);
 }
